@@ -1,0 +1,22 @@
+================================
+== You Must Read to Configure ==
+================================
+
+Thanks for using this smart application
+It is 100% free
+Only you need to configure the following files, in each file it is written what you need to do.
+If you need support, just contact me on es@es.sa
+Thanks
+
+./Asset_Detailes.asp
+./Asset_Detailes_Like.asp
+./Assign_Assets_O.asp
+./Emp_Add_O.asp
+./Emp_Detailes.asp
+./login_operation2.asp
+./Relase_O.asp
+
+
+./user/Emp_Details.asp
+./user/login.asp
+./user/login_operation.asp
