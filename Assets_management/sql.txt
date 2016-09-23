@@ -1,0 +1,124 @@
+
+DROP TABLE ISupport.dbo.Assets;
+CREATE TABLE ISupport.dbo.Assets
+(
+Assets_Id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+Assets_Type_Id int,
+ISD_Name nvarchar(255),
+last_Name nvarchar(255),
+Assets_Model nvarchar(255),
+Assets_Processor nvarchar(255),
+Assets_Speed int,
+Ram_Current int,
+Ram_Max int,
+HDC_Current int,
+HDC_Max int,
+HDD_Current int,
+HDD_Max int,
+HDE_Current int,
+HDE_Max int,
+
+Assets_Active int,
+Date_Reg datetime,
+Note nvarchar(1500),
+username nvarchar(255),
+SN nvarchar(255),
+Rank nvarchar(500),
+Wight int,
+Assets_Group nvarchar(500)
+
+);
+
+DROP TABLE ISupport.dbo.Assets_Type;
+CREATE TABLE ISupport.dbo.Assets_Type
+(
+Assets_Type_Id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+Assets_Type_Name nvarchar(500),
+
+Assets_Type_Active int,
+Date_Reg datetime,
+Note nvarchar(1500)
+);
+
+
+DROP TABLE ISupport.dbo.Owner;
+CREATE TABLE ISupport.dbo.Owner
+(
+Owner_Id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+Assets_Id int,
+Emp_Id int,
+
+Owner_Active int,
+Date_Reg datetime,
+Note nvarchar(1500)
+);
+
+DROP TABLE ISupport.dbo.Area;
+CREATE TABLE ISupport.dbo.Area
+(
+Area_Id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+Area_Name nvarchar(500),
+
+Area_Active int,
+Area_Reg datetime,
+Note nvarchar(1500)
+);
+
+DROP TABLE ISupport.dbo.Dept;
+CREATE TABLE ISupport.dbo.Dept
+(
+Dept_Id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+Main_Dept_Id int,
+Emp_Id_Head int,
+Dept_Name nvarchar(500),
+Dept_City nvarchar(500),
+
+Dept_Active int,
+Date_Reg datetime,
+Note nvarchar(1500)
+);
+
+
+DROP TABLE ISupport.dbo.History;
+CREATE TABLE ISupport.dbo.History
+(
+History_Id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+Assets_Id int,
+Emp_Id int,
+
+History_Active int,
+Date_Reg datetime,
+Note nvarchar(1500)
+);
+
+
+DROP TABLE ISupport.dbo.Emp;
+CREATE TABLE ISupport.dbo.Emp
+(
+Emp_Id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+Emp_Badge int,
+Dept_Id int,
+Area_Id int,
+Emp_Title nvarchar(500),
+Emp_Name nvarchar(500),
+Emp_Ext nvarchar(500),
+Emp_Pager nvarchar(500),
+Emp_Email nvarchar(500),
+Emp_Office nvarchar(500),
+
+Emp_Active int,
+Emp_Reg datetime,
+Note nvarchar(1500)
+);
+
+DROP TABLE ISupport.dbo.SUser;
+CREATE TABLE ISupport.dbo.SUser
+(
+SUser_Id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+SUser_FullName nvarchar(500),
+SUser_Name nvarchar(500),
+SUser_Pass nvarchar(500),
+SUser_Active int,
+SUser_Privilege int,
+SUser_Note nvarchar(1500)
+);
