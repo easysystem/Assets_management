@@ -8,6 +8,9 @@ Only you need to configure the following files, in each file it is written what 
 If you need support, just contact me on es@es.sa
 Thanks
 
+First create the DB , you will find the script in SQL.txt file
+Then open and update the folowing:
+
 ./Asset_Detailes.asp
 ./Asset_Detailes_Like.asp
 ./Assign_Assets_O.asp
