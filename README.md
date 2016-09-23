@@ -1,7 +1,7 @@
 # Assets_management
 one of the best web application to manage assets in your organization, integrated with exchange server , alerts, notification, filtering, log, privilege users and more many functions. البرنامج الرائع في ادارة المنظمة وخصوصا اجهزة وبرامج تقنية المعلومات
 
-Application Futures: 
+Application Futures:  (( It is 100% Free ))
 1- Integrated with exchange server (users can log in by their username and password)
 2- Smart formula for calculating the rank for each asset over all. to decide for which group you want to assign it.
 3- 3 type of privilege users 
@@ -13,7 +13,7 @@ Application Futures:
 9- Assets disruption by department, building and other criteria 
 10- Support multi language 
 
-مميزات النظام
+مميزات النظام: ((مجاني 100% ((
 1- امكانية ربطه بالاكتف دايركتري
 2- معادلة ذكية لاحتساب كفائة الجهاز مقارنة بين الاجهزة الموجودة
 3- 3 مستويات لمتخدمي النظام
