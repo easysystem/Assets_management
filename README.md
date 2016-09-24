@@ -1,6 +1,8 @@
 # Assets_management
 one of the best web application to manage assets in your organization, integrated with exchange server , alerts, notification, filtering, log, privilege users and more many functions. البرنامج الرائع في ادارة المنظمة وخصوصا اجهزة وبرامج تقنية المعلومات
 
+Asset management free web application open source using ASP not PHP very easy to install and customize 
+
 Application Futures:  (( It is 100% Free ))
 1- Integrated with exchange server (users can log in by their username and password)
 2- Smart formula for calculating the rank for each asset over all. to decide for which group you want to assign it.
