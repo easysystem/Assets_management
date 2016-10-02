@@ -1,4 +1,7 @@
-# Assets_management
+
+Free Assets management web application source code asp not php
+برنامج ادارة الممتلكات مفتوح المصدر ومجاني
+
 one of the best web application to manage assets in your organization, integrated with exchange server , alerts, notification, filtering, log, privilege users and more many functions. البرنامج الرائع في ادارة المنظمة وخصوصا اجهزة وبرامج تقنية المعلومات
 
 Asset management free web application open source using ASP not PHP very easy to install and customize 
